@@ -11,7 +11,7 @@ const lookup = {
 };
 
 function rot13(encodedString){
-   lvar decodedString = "";
+   var decodedString = "";
   
   for (var i = 0; i < encodedString.length; i++) {
     var charCode = encodedString.charCodeAt(i);
