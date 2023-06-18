@@ -31,5 +31,9 @@ function rot13(encodedString){
 // You can test your code by running the above function and printing it to console by pressing the run button at the top. To run it with input 36, uncomment the following line
 
  console.log(rot13("SERR YBIR? NPPVBWBO"));
+ console.log(rot13("THE QUICK BROWN FOX JUMPS OVER THE LAZY DOG"));
+ console.log(rot13("ABCDEFGHIJKLMNOPQRSTUVWXYZ"));
+console.log(rot13("V YBIR QBPGBE FGENATR, QB LBH?"));
+
 
 module.exports = rot13;
